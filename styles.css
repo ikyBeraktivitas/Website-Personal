@@ -1,0 +1,188 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* Transisi untuk halaman keluar */
+.body-transition-exit {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+/* Navbar styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+/* Section styles */
+section {
+    padding: 50px 20px;
+	
+}
+.my-5 {
+	background-color: #f8f9fa;
+	border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+.section text-center{
+	text-align: left;
+}
+.img-fluid {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+.personal-info {
+	background-color: #f8f9fa;
+	border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+.hobbies {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.hobbies h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.hobbies p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.hobby {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.hobby img {
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    max-width: 150px;
+}
+.education p{
+	text-align: left;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hobbies p{
+	text-align: left;
+}
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p.lead {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Education styles */
+.education {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.education h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.education p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Hobbies styles */
+.hobbies {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.hobbies h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.hobbies p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.hobby {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hobby img {
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    max-width: 150px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Button styles */
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+    background-color: darkred;
+}
